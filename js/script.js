@@ -123,4 +123,6 @@ buyButton.addEventListener("click", () => {
 
   updateTotalPrice();
   alert("Thank you for your purchase!");
+
+  updateCartCount();
 });
