@@ -16,8 +16,9 @@ header {
   left: 0;
   width: 100%;
   padding: 30px;
-  background-image: url(/img/crochet1.png);
-  color: #e1cea5;
+  background-image: url("../img/crochet1.png");
+  background-size: cover;
+  background-position: center;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-between;
