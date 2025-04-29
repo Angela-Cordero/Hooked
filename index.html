@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hooked</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Baumans&family=Londrina+Sketch&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script src="./JS/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a href="" class="logo"
+        ><img src="img/logo.png" alt="logo" width="200px" />
+      </a>
+      <div id="cart-icon">
+        <i class="ri-shopping-bag-line"></i>
+        <span class="cart-item-count"></span>
+      </div>
+    </header>
+
+    <body>
+      <div class="cart">
+        <h2 class="cart-title">Your cart</h2>
+        <div class="cart-content">
+          <!-- <div class="cart-box">
+          <img src="img/product1.png" class="cart-img" alt="" />
+          <div class="cart-detail">
+            <h2 class="cart-product-title">Monkey D. Luffy</h2>
+            <span class="cart-price">$30.000</span>
+            <div class="cart-quantity">
+              <button id="decrement">-</button>
+              <span class="number">1</span>
+              <button id="increment">+</button>
+            </div>
+          </div>
+          <i class="ri-delete-bin-line remove-cart"></i>
+        </div>-->
+        </div>
+        <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-price">$0</div>
+        </div>
+        <button class="btn-buy">Buy!</button>
+        <i class="ri-close-circle-fill" id="close-cart"></i>
+      </div>
+
+      <section class="shop">
+        <h1 class="section-title">Products</h1>
+        <div class="product-content">
+          <div class="product-box">
+            <div class="img-box">
+              <img src="img/product1.png" alt="Monkey D. Luffy Amigurumi" />
+            </div>
+            <h2 class="product-title">Monkey D. Luffy</h2>
+            <div class="price-and-cart">
+              <span class="price">$30.000</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+            </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img src="img/product2.png" alt="Hedwig Amigurumi" />
+            </div>
+            <h2 class="product-title">Hedwig Hufflepuff</h2>
+            <div class="price-and-cart">
+              <span class="price">$40.000</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+            </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img src="img/product3.png" alt="Groot Amigurumi" />
+            </div>
+            <h2 class="product-title">Groot</h2>
+            <div class="price-and-cart">
+              <span class="price">$35.000</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+            </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img src="img/product1.png" alt="Monkey D. Luffy Amigurumi" />
+            </div>
+            <h2 class="product-title">Monkey D. Luffy</h2>
+            <div class="price-and-cart">
+              <span class="price">$30.000</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+            </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img src="img/product1.png" alt="Monkey D. Luffy Amigurumi" />
+            </div>
+            <h2 class="product-title">Monkey D. Luffy</h2>
+            <div class="price-and-cart">
+              <span class="price">$30.000</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+            </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img src="img/product1.png" alt="Monkey D. Luffy Amigurumi" />
+            </div>
+            <h2 class="product-title">Monkey D. Luffy</h2>
+            <div class="price-and-cart">
+              <span class="price">$30.000</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+            </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img src="img/product1.png" alt="Monkey D. Luffy Amigurumi" />
+            </div>
+            <h2 class="product-title">Monkey D. Luffy</h2>
+            <div class="price-and-cart">
+              <span class="price">$30.000</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+            </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img src="img/product1.png" alt="Monkey D. Luffy Amigurumi" />
+            </div>
+            <h2 class="product-title">Monkey D. Luffy</h2>
+            <div class="price-and-cart">
+              <span class="price">$30.000</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+            </div>
+          </div>
+
+          <div class="product-box">
+            <div class="img-box">
+              <img src="img/product1.png" alt="Monkey D. Luffy Amigurumi" />
+            </div>
+            <h2 class="product-title">Monkey D. Luffy</h2>
+            <div class="price-and-cart">
+              <span class="price">$30.000</span>
+              <i class="ri-shopping-bag-line add-cart"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+  </body>
+</html>
