@@ -31,6 +31,7 @@ header {
   display: flex;
   font-size: 40px;
   cursor: pointer;
+  color: #e1cea5;
 }
 
 #cart-icon .cart-item-count {
